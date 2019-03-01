@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 class="heading1">Samuel Lamb</h1>
+
+
+    <div class="flexContainer flexSpaceAround">
+        <div class="col2">
+            <h1 class="heading1">Samuel Lamb</h1>
+        </div>
+      </div>
+ 
   <div class="flexContainer flexSpaceAround">
       <a href="https://www.linkedin.com/in/samuel-lamb-a69b66173" target="_blank" title="LinkedIn">
         <div class="col">
@@ -32,11 +39,24 @@
       </a>
   </div>
 
-  <form method="POST" action="https://formspree.io/samueltlamb1997@gmail.com">
-    <input type="email" name="email" placeholder="Your email">
-    <textarea name="message" placeholder="Test Message"></textarea>
-    <button type="submit">Send Test</button>
-  </form>
+<div class="flexContainer flexSpaceAround">
+  <div class="col2">
+  <h1 class="heading1">Write me an email:</h1>
+  </div>
+</div>
 
+  <div class="flexContainer flexSpaceAround">
+    <form method="POST" action="https://formspree.io/samueltlamb1997@gmail.com">
+      <div class="row">
+        <input type="email" name="email" placeholder="Your email">
+      </div>
+      <div class="row">
+        <textarea name="message" placeholder="Message"></textarea>
+      </div>
+      <div class="row">
+        <button type="submit">Send Mail</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>

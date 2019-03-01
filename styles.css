@@ -55,3 +55,26 @@ a:hover {
     padding: 15px;
    
 }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 250px;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background: #782F40;
+    padding: 15px;
+}
+.col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 800px;
+    border: 1px solid #777777;
+    border-radius: 10px;
+    background: #782F40;
+    padding: 10px;
+   
+}
