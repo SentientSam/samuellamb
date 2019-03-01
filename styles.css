@@ -50,7 +50,7 @@ a:hover {
     flex-flow: column nowrap;
     width: 250px;
     border: 1px solid #777777;
-    border-radius: 8px;
+    border-radius: 50%;
     background: #782F40;
     padding: 15px;
    
