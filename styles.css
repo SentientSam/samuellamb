@@ -1,18 +1,28 @@
 body {
-    background-color: #141414; 
+    background-color: #141414;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.2)
 }
 
 .heading { 
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2.2em;
 }
 .heading1 { 
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 4em;
 }
 .heading2 { 
-    color: white;
-    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
 }
 .PictureSize1{
     width:  100px;
@@ -22,4 +32,26 @@ body {
 .PictureSize2{
     width:  100px;
     height: 130px;
+}
+.flexContainer {
+    display: flex;
+}
+.flexSpaceAround {
+    justify-content: space-around;
+}
+.subContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 250px;
+    border: 1px solid #777777;
+    border-radius: 8px;
+    background: #782F40;
+    padding: 15px;
+   
 }

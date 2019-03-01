@@ -8,37 +8,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="heading1">Samuel Lamb Website</h1>
-    <p> 
-        <h2 class="heading">My LinkedIn: 
-            <a href="https://www.linkedin.com/in/samuel-lamb-a69b66173" 
-                title="LinkedIn">
-                <img src="Picture.jpg" class="PictureSize1"> 
-            </a> 
-        </h2> 
-    </p>
-    <p> 
-        <h2 class="heading">FSU PC Page: 
-            <a href="https://pc.fsu.edu/person/samuel-sam-lamb" 
-                title="FSU">
-                    
-                <img src="Picture2.jpg" class="PictureSize1"> 
-            </a> 
-        </h2> 
-    </p>
-    <p> 
-        <h2 class="heading">Resume:
-             <a href="Resume.pdf">                       
-                <img src="Resume.jpg" class="PictureSize2"> 
-            </a> 
-        </h2> 
-    </p>
-    <p> 
-         <h2 class="heading">Josh:
-              <a href="https://joshbrewster.dev">                       
-                  <img src="Josh.PNG" class="PictureSize1"> 
-             </a> 
-         </h2> 
-    </p>
+  <h1 class="heading1">Samuel Lamb</h1>
+  <div class="flexContainer flexSpaceAround">
+      <a href="https://www.linkedin.com/in/samuel-lamb-a69b66173" target="_blank" title="LinkedIn">
+        <div class="col">
+          <h2 class="heading">My LinkedIn:</h2>
+          <img src="Picture.jpg" class="PictureSize1">
+        </div>
+      </a>
+  
+      <a href="https://pc.fsu.edu/person/samuel-sam-lamb" target="_blank" title="FSU">
+        <div class="col">
+          <h2 class="heading">FSU PC Page:</h2>
+          <img src="Picture2.jpg" class="PictureSize1">
+        </div>
+      </a>
+        
+      <a href="Resume.pdf" target="_blank" title="Résumé">
+        <div class="col"> 
+          <h2 class="heading">Résumé:</h2>
+          <img src="Resume.jpg" class="PictureSize2">          
+        </div>
+      </a>
+  </div>
+
+  <form method="POST" action="https://formspree.io/samueltlamb1997@gmail.com">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Test Message"></textarea>
+    <button type="submit">Send Test</button>
+  </form>
+
 </body>
 </html>
