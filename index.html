@@ -6,38 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Samuel Lamb</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
 
 
-    <div class="flexContainer flexSpaceAround">
-        <div class="col2">
-            <h1 class="heading2">Samuel Lamb</h1>
-        </div>
-      </div>
- 
-  <div class="flexContainer flexSpaceAround">
-      <a href="https://www.linkedin.com/in/samuel-lamb-a69b66173" target="_blank" title="LinkedIn">
-        <div class="col">
-          <h2 class="heading">My LinkedIn:</h2>
-          <img src="Picture.jpg" class="PictureSize1">
-        </div>
-      </a>
-  
-      <a href="https://pc.fsu.edu/person/samuel-sam-lamb" target="_blank" title="FSU">
-        <div class="col">
-          <h2 class="heading">FSU PC Page:</h2>
-          <img src="Picture2.jpg" class="PictureSize1">
-        </div>
-      </a>
-        
-      <a href="Resume.pdf" target="_blank" title="Résumé">
-        <div class="col"> 
-          <h2 class="heading">Résumé:</h2>
-          <img src="Resume.jpg" class="PictureSize2">          
-        </div>
-      </a>
+<div class="flexContainer flexSpaceAround">
+  <div class="col2">
+    <h1 class="heading2">Samuel Lamb</h1>
   </div>
+</div>
+     
+
+ 
+
+<div id="nav" class="heading flexContainer flexSpaceAround">
+
+
+  <a href="#headline1">Directories</a>
+
+
+  <a href="#headline2">About Me</a>
+
+
+  <a href="#headline3">Projects</a>
+
+
+  <a href="#headline4">Contact Me</a>
+
+
+</div>
+   
+  
+<div class="section">
+  <h1><a name="headline1">Directories</a></h1>
+</div>
+
+<hr>
+<div class="flexContainer flexSpaceAround">
+    <a href="https://www.linkedin.com/in/samuel-lamb-a69b66173" target="_blank" title="LinkedIn">
+      <div class="col">
+        <h2 class="heading">My LinkedIn:</h2>
+        <img src="Picture.jpg" class="PictureSize1">
+      </div>
+    </a>
+
+    <a href="https://pc.fsu.edu/person/samuel-sam-lamb" target="_blank" title="FSU">
+      <div class="col">
+        <h2 class="heading">FSU PC Page:</h2>
+        <img src="Picture2.jpg" class="PictureSize1">
+      </div>
+    </a>
+      
+    <a href="Resume.pdf" target="_blank" title="Résumé">
+      <div class="col"> 
+        <h2 class="heading">Résumé:</h2>
+        <img src="Resume.jpg" class="PictureSize2">          
+      </div>
+    </a>
+</div>
+
+
+  
+    
+<div class="section">
+<h1><a name="headline2">About Me</a></h1>
+<p>Lorem ipsum dolor sit amet...</p>
+</div>
+
+<div class="section">
+<h1><a name="headline3">Projects</a></h1>
+<p>Lorem ipsum dolor sit amet...</p>
+</div>
+
+<div class="section">
+<h1><a name="headline4">Contact Me</a></h1>
+<p>Lorem ipsum dolor sit amet...</p>
+</div>
+
+
+
 
 <div class="flexContainer flexSpaceAround">
   <div class="col2">
@@ -45,25 +93,29 @@
   </div>
 </div>
 
-  <div class="flexContainer flexSpaceAround">
-    <form method="POST" action="https://formspree.io/samueltlamb1997@gmail.com">
-      <div class="row">
-        <input type="email" name="email" placeholder="Your email">
-      </div>
-      <div class="row">
-        <textarea name="message" placeholder="Message"></textarea>
-      </div>
-      <div class="row">
-        <button type="submit">Send Mail</button>
-      </div>
-    </form>
-  </div>
+<div class="flexContainer flexSpaceAround">
+  <form method="POST" action="https://formspree.io/samueltlamb1997@gmail.com">
+    <div class="row">
+      <input type="email" name="email" placeholder="Your email" required>
+    </div>
+    <div class="row">
+      <textarea name="message" placeholder="Message"></textarea>
+    </div>
+    <div class="row">
+      <button type="submit">Send Mail</button>
+    </div>
+  </form>
+</div>
 
 
-  <audio 
-  loop autoplay src="Sk8r.mp3" controls>
-  Error: your web browser does not support this audio player.
-  </audio>
+<audio 
+loop autoplay src="Sk8r.mp3" controls>
+Error: your web browser does not support this audio player.
+</audio>
 
+<script src="./main.js">
+
+</script>
 </body>
+
 </html>
