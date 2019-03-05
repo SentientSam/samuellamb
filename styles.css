@@ -9,7 +9,7 @@ a {
 
 a:hover {
     transition-duration: 0.5s;
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
 
 .heading { 
@@ -72,14 +72,25 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
-    width: 800px;
+    width: 450px;
     border: 1px solid #777777;
-    border-radius: 10px;
+    border-radius: 20px;
     background: rgb(0, 0, 0);
     padding: 10px;
    
 }
-
+.col3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 1200px;
+    border: 1px solid #777777;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+   
+}
 * {
     margin: 0;
     padding: 0;
